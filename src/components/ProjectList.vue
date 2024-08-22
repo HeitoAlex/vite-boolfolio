@@ -40,7 +40,9 @@
 <template>
     <div class="container">
         <div class="project-list">
-            <SingleProject v-for="project in projects" :author="project.author" :image="project.image" :title="project.title" :content="project.content" :link="project.link"/>
+            <router-link v-for="project in projects" :to="{ name: 'project' , params:{ id: project.id } } ">
+                <SingleProject :author="project.author" :image="project.image" :title="project.title" :content="project.content" :link="project.link"/>
+            </router-link>
         </div>
     </div>
 </template>

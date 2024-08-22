@@ -48,7 +48,6 @@
             <a href="#" class="card-link">{{ link }}</a>
         </div>
     </div>
-
 </template>
 
 <style >

@@ -1,11 +1,12 @@
 <script setup>
 
   import ProjectList from './components/ProjectList.vue';
+  import MainHeader from './components/MainHeader.vue';
   
 </script>
 
 <template>
-  <ProjectList/>
+  <MainHeader/>
   <router-view></router-view>
 </template>
 

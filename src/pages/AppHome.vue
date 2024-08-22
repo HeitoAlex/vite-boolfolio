@@ -7,7 +7,7 @@
         components:{
             ProjectList
         },
-        
+
         data(){
             return{
                 
@@ -17,7 +17,6 @@
 </script>
 
 <template>
-    <h1>Home</h1>
     <ProjectList/>
 </template>
 
