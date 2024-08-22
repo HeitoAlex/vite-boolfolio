@@ -1,9 +1,12 @@
 <script setup>
-  import AppMain from './components/AppMain.vue';
+
+  import ProjectList from './components/ProjectList.vue';
+  
 </script>
 
 <template>
-  <AppMain/>
+  <ProjectList/>
+  <router-view></router-view>
 </template>
 
 <style lang="scss">
